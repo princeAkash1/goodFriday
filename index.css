@@ -26,4 +26,37 @@ body {
     .invitation p:hover {
       color: #4285f4; 
     }
+
+@keyframes fadeInDesktop {
+    from {
+      opacity: 0;
+      transform: translateY(-50px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  @keyframes fadeInMobile {
+    from {
+      opacity: 0;
+      transform: translateY(-30px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  .invitation {
+    animation: fadeInDesktop 1s ease-out;
+  }
+  
+  @media (max-width: 768px) {
+    .invitation {
+      animation: fadeInMobile 1s ease-out;
+    }
+  }
+  
   
