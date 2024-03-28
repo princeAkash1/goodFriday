@@ -1,0 +1,29 @@
+body {
+    background-color: #f5f5f5; 
+    font-family: Arial, sans-serif;
+  }
+  
+  .invitation {
+      margin-top: 50px;
+      text-align: center;
+      background-color: white;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+    }
+  
+    .invitation h2 {
+      color: #333; 
+      transition: color 0.3s ease; 
+    }
+  
+    .invitation p {
+      color: #666; 
+      transition: color 0.3s ease;
+    }
+  
+    .invitation h2:hover,
+    .invitation p:hover {
+      color: #4285f4; 
+    }
+  

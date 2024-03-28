@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Good Friday and Easter Invitation</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="container-fluid bg">
+        <div class="container">
+          <div class="invitation">
+            <h2>Join Us for Good Friday and Easter</h2>
+            <p>We invite you to join us in commemorating Good Friday and celebrating Easter. It's a time for reflection, renewal, and fellowship.</p>
+            <div class="image-container">
+              <img src="goodfriday.jpg" alt="Cross">
+            </div>
+            <p>Let's come together to honor the sacrifice of Jesus and rejoice in His resurrection.</p>
+            <p>Date: [3/29/2024]</p>
+            <p>Location: <a href="#" id="locationLink">[Location]</a></p>
+            <button class="btn btn-primary" onclick="updateCount('coming')">Coming</button>
+            <button class="btn btn-danger" onclick="updateCount('not-coming')">Not Coming</button>
+            <div id="comingCount">
+              <h3>Coming Count: <span id="comingNumber">0</span></h3>
+            </div>
+            <div id="notComingCount">
+              <h3>Not Coming Count: <span id="notComingNumber">0</span></h3>
+            </div>
+          </div>
+        </div>
+      </div>
+      <script src="goodfriday.js"></script>
+    </body>
+</html>
