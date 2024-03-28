@@ -59,4 +59,11 @@ body {
     }
   }
   
+@media (max-width: 768px) {
+    .image-container img {
+      max-width: 100%; 
+      height: auto; /* Maintain aspect ratio */
+      margin-bottom: 20px; 
+    }
+  }
   
